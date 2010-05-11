@@ -41,7 +41,7 @@
 
 -module(seethrough).
 
--include("xmerl.hrl").
+-include_lib("xmerl/include/xmerl.hrl").
 -export([render/2, render/3,
          compile/1, exec/2,
          apply_template/2, apply_template/3,

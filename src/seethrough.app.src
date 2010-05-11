@@ -1,0 +1,11 @@
+{application, seethrough,
+ [
+  {description, "Please see http://hyperstruct.net/projects/seethrough."},
+  {vsn, "1"},
+  {modules, []},
+  {registered, []},
+  {applications, [kernel, stdlib]},
+  {mod, {seethrough_app, []}},
+  {env, []}
+ ]}.
+

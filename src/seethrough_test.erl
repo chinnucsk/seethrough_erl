@@ -1,6 +1,6 @@
 -module(seethrough_test).
 
--include("xmerl.hrl").
+-include_lib("xmerl/include/xmerl.hrl").
 -compile([export_all]).
 
 
